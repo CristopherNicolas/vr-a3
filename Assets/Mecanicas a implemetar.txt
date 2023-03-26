@@ -1,0 +1,45 @@
+Mecanicas:
+
+
+
+
+-
+
+¿como solucionar el tema del movimientos para que no sea tan invasivo y que provoque mareos
+en el jugador?
+
+el jugador debe tener tiempo necesario para poder acomodarse en el movimiento de realidad virtual
+en el momento que lleguen los enemigos.(dar un margen de unos x segundos desde que el enemigo es visto.
+Considerar la velocidad de movimiento tanto del jugador como de enemigos. x depende de la dificultad?).
+
+Mecánicas de juego:
+-movimiento de 8 direcciones con rueda del mando de unity.
+-movimiento  de los mandos como dos manos, donde una de las dos tiene una fuente de luz
+que hace como linterna.
+Núcleo mecánicas del juego:
+-Dejar caer bengala(o pistola de bengalas), tienes 2 bengalas que alumbran por 20 segundos, luego se apagan.
+Control y mecánicas del jugador:
+
+Mecánicas de los ítems:
+-mapa destruido -> muestra parte del mapa, la otra parte esta destruida en el mapa.
+(presiona un boton para ver el mapa).
+-Linterna o telefono, nos sirve para alumbrar la oscuridad del camino del mapa.
+-item magico: hay 2 de estos items  escondidos en el mapa. los cuales cargan tu linterna un 40% 
+y aumenta tu velocidad un 15% 30 segundos.
+Mecánicas de enemigos:
+Enemigo 1:
+-El enmigo ataca al entrar a rango de 2 metros del jugador.
+-Perseguir al jugador cuando este no le alumbra.
+-Al alumbrarse el enemigo se detiene
+Enemigo 2:
+-Este enemigo no se detiene con la linterna ni bengalas, tu unica opcion es escapar de el hasta que no te vea.
+-Este enemigo se devanece y luego (segun la narrativa) se cambia de forma y se teletransporta a un punto definido
+del mapa de forma aleatoria(cerca de base, casi al final del camino, bosque).
+-Este enemigo es mas lento cuando te encuentra, pero a medida que pasa el tiempo se hace mas lento.  
+
+Mecánicas del mundo:
+-zona segura, donde el jugador puede probar los controles y volver para descansar y cargar su bateria de linterna.
+Flujo de juego:
+-> Comienzo de juego -> salir de base ->
+aguantar fuera de base hasta encontrar la salida o evento de final de jeugo(definir segun la narrativa) 
+-> si los enemigos acaban contigo hacer respawn en la base.
