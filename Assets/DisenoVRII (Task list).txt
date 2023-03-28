@@ -1,0 +1,63 @@
+GENEROS
+
+1. Terror
+2. Survival Horror
+3. Scape Run
+4. Arcade
+
+
+
+PERSONAJE
+
+1. Movimiento en ocho direcciones.
+2. No se puede saltar.
+3. Stamina para correr.
+4. Puede tomar objetos del escenario (piedras, props, etc).
+5. Puede interactuar con objetos del escenario (mover palancas, pisar trampas, etc).
+6. No cuenta con inventario.
+
+
+
+LUZ
+
+1. Tiene un tiempo límite de uso.
+2. Se puede recargar en zonas especificas.
+3. Parpadea cuando un enemigo está muy cerca del jugador.
+4. Suceptible a desactivarse momentaneamente por trampas, zonas específicas, etc.
+5. El jugado al no contar con la luz se reduce su campo de visión.
+6. El jugador puede apagar/encender la luz a voluntad.
+
+
+
+ESCENARIO
+
+1. Niveles con progresión en dificultad.
+	1.1. Implicito: se llega de una Safe Zone A a una B, funcionando como checkpoints.
+2. Escenarios cerrados de una solo piso.
+	2.1 Al avanzar de "niveles" se agrandan en largo, ancho y más pisos (Pueden haber excepciones).
+3. Laberintos.
+	3.1. Faltan partes del piso y el jugador se puede caer.
+	3.2. Pasillos con barandas.
+	3.3 Cuartos cerrados con muros.
+4. Busqueda de llave para abrir puertas/cajas.
+5. Trampas en piso.
+	5.1. Piso que se derrumba cuando el jugador camina sobre el y/o el enemigo.
+	5.2. Piso que realentice.
+	5.3. Interruptores en piso que muevan plataformas/muros/escaleras o abran/cierren puertas.
+6. Zonas en donde se desactive la luz.
+7. Interruptores manuales que muevan plataformas/muros/escaleras o abran/cierren puertas.
+8. "Niveles" donde se maneje un carrito en rieles con el que se puede avanzar, detener o retroceder.
+9. Niveles Completamente oscuros.
+10. Niveles Parcialmente oscuros, principalmente oscuros con pequeñas zonas iluminadas.
+
+
+
+ENEMIGOS
+
+1. Enemigo Boo, persigue al jugador mientras no se le apunte con la luz.
+	1.1 Apuntarle con la luz apresura que se descargue.
+	1.2. Se mueve más rapido que el protagonista al caminar, pero más lento que el protagonista al correr.
+2. Enemigo Luz Verde Luz roja.
+3. Enemigo tipo torreta, esta quieto vigilando con un campo de visión definido. Si te mueves dentro de su campo visión pierdes.
+4. Enemigo que se mueve cada cierta cantidad de tiempo y luego descansa, se mueve más rapido que el Boo.
+5. Enemigo que prende luz en el cuarto y no puedes moverte, pero si se apaga si puedes moverte.

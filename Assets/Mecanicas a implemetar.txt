@@ -1,9 +1,3 @@
-Mecanicas:
-
-
-
-
--
 
 ¿como solucionar el tema del movimientos para que no sea tan invasivo y que provoque mareos
 en el jugador?
